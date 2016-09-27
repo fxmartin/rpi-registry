@@ -25,3 +25,11 @@ After that it's only a matter of cloning the github image: ```test```, replacing
 ```
 docker build --tag fxmartin/rpi-registry .
 ```
+
+The resulting image is small, only 22.28 Mb:
+
+```
+REPOSITORY                                          TAG                 IMAGE ID            CREATED             SIZE
+fxmartin/rpi-registry                               latest              9fdc8b7c58d4        38 minutes ago      22.28 MB
+swarm-master.local:5000/fxmartin/rpi-registry       local               9fdc8b7c58d4        38 minutes ago      22.28 MB
+```
