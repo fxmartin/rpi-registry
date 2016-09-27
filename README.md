@@ -9,7 +9,7 @@ TODO: Add explanation on creating self signed certificates.
 Run it with the below command:
 
 ```
-docker run -d -p 5000:5000 -v /home/pirate/registry_certs:/certs -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/domain.cert -e REGISTRY_HTTP_TLS_KEY=/certs/domain.key --restart=always --name registry-srv -v /mnt/usb/registry:/var/lib/registry armbuild/registry
+docker run -d -p 5000:5000 -v /home/pirate/registry_certs:/certs -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/domain.cert -e REGISTRY_HTTP_TLS_KEY=/certs/domain.key --restart=always --name registry-srv -v /mnt/usb/registry:/var/lib/registry fxmartin/rpi-registry
 ```
 
 ## How to build this image
